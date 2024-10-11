@@ -11,7 +11,6 @@ except requests.RequestException:
 if len(sys.argv) == 1:
     print("Missing command-line argument")
     sys.exit(1)
-
 elif len(sys.argv) == 2:
     if float(sys.argv[1]) is False:
         print("Command-line argument is not a number")
