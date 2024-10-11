@@ -1,5 +1,4 @@
 file_name = input("File name: ")
-
 file = file_name.strip().lower()
 
 if file.endswith(".gif"):
