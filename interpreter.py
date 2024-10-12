@@ -1,5 +1,4 @@
 expression = input("Expression: ")
-
 x, y, z = expression.strip().split(" ")
 
 if y == "+":
